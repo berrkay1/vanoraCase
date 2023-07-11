@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  line-height: normal;
+  font-family: "Sora", sans-serif;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.slick-arrow {
+  background: #400e03;
+  border: 1px solid #400e03;
+}
+
+.slick-arrow:focus {
+  background: #400e03;
+  border: 1px solid #400e03;
+}
+.slick-arrow:hover {
+  background: #400e03;
+  border: 1px solid #400e03;
+}
+
+.slick-arrow:active {
+  background: #400e03;
+  border: 1px solid #400e03;
+}
+
+.slick-dots {
+  margin-top: 50px;
+}
+
+.slick-dots > li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slick-active > .circle {
+  margin-top: 46px !important;
+  width: 12px;
+  height: 12px;
+}
+
+.circle {
+  width: 6px;
+  height: 6px;
+}
